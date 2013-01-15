@@ -5,7 +5,7 @@ This function works with the Cartthrob Gift Certificates add-on version 1.1.
 Similar to Carthrob's `clear_coupon_codes` function, `clear_gift_codes` clears all gift certificates or a specific gift certificate from being redeemed.
 
 ## Why?
-Well, Why not? We see there was a function to clear coupon codes, so why not add it to the gift certificates as well. So, VOILA!
+Well... Why not? We see there is a function to clear coupon codes, so why not add it to the gift certificates as well. So, VOILA!
 
 ## Installation
 1. Copy the function from `clear_gift_codes.php`.

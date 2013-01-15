@@ -58,4 +58,4 @@ This has only been tested with Cartthrob version 2.2.5 and Cartthrob Gift Certif
 
 ## Many Thanks to:
 #### Team Reusser for their continued support!
-#### And, the Carthrob Development Team for their developer documentation!
+#### And, to the Carthrob Development Team for their awesome products and developer documentation! Really, Thank You!

@@ -48,7 +48,6 @@ This can be in a template group of your choice _(we placed it in the store.group
 {exp:cartthrob_gift_certificates:clear_gift_codes return="/store/cart" code="{segment_3}"}
 ```
 ## Parameters
-The plugin comes with a nice set of options you can dabble with.
 
 #### `return`
 Specify a path to redirect the user after clearing the code(s).

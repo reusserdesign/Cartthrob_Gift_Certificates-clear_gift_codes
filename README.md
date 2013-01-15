@@ -2,7 +2,7 @@
 
 ## Description
 This function works with the Cartthrob Gift Certificates add-on version 1.1.
-Similar to Carthrob's `clear_coupon_codes` function `clear_gift_codes` clears all gift certificates or a specific gift certificate from being redeemed.
+Similar to Carthrob's `clear_coupon_codes` function, `clear_gift_codes` clears all gift certificates or a specific gift certificate from being redeemed.
 
 ## Why?
 Well, Why not? We see there was a function to clear coupon codes, so why not add it to the gift certificates as well. So, VOILA!
@@ -16,7 +16,8 @@ Well, Why not? We see there was a function to clear coupon codes, so why not add
 
 ### Example ExpressionEngine markup:
 
-### Add this to a template_group and templat of your choice _(we placed it in the store.group/cart.html)_.
+### Add the `redeem_gift_certificate_form`
+Add this to a template_group and template of your choice _(we placed it in the store.group/cart.html)_.
 ```html
 {exp:cartthrob_gift_certificates:redeem_gift_certificate_form return="/store/cart" error_handling="inline"}
 	<input type="text" name="gift_certificate_code" >
@@ -59,5 +60,5 @@ Specify a code to clear. Handy when there is more than one active code.
 This has only been tested with Cartthrob version 2.2.5 and Cartthrob Gift Certificates version 1.1.
 
 ## Many Thanks to:
-Team Reusser for their continued support!
-And, the Carthrob Development Team for their developer documentation!
+#### Team Reusser for their continued support!
+#### And, the Carthrob Development Team for their developer documentation!

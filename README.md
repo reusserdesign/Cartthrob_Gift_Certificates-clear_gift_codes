@@ -12,9 +12,7 @@ Well, Why not? We see there was a function to clear coupon codes, so why not add
 2. Open the file `mod.cartthrob_gift_certificates.php` located in the `cartthrob_gift_certificates` folder.
 3. Paste the code before the last closing curly brace in the file `mod.cartthrob_gift_certificates.php`
 
-## Usage
-
-### Example ExpressionEngine markup:
+## Example ExpressionEngine markup:
 
 #### Add the `redeem_gift_certificate_form`
 Add this to a template_group and template of your choice _(we placed it in the store.group/cart.html)_.

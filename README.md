@@ -41,7 +41,7 @@ Add this to a template_group and template of your choice _(we placed it in the s
 ```
 
 #### Add remove-gift-codes.html file
-This can be in a template group of your choice _(we placed it in the store.group)_. When the user clicks on the link to remove the specific code, the segment_3 variable is passed as the parameter to the function and removes only that code if it is set. If there is no code parameter set, then all codes are removed.
+This can be in a template group of your choice _(we placed it in the store.group)_. When the user clicks on the link to remove the specific code, the `{segment_3}` variable is passed as the parameter to the function and removes only that code if it is set. If there is no code parameter set, then all codes are removed.
 ```html
 {exp:cartthrob_gift_certificates:clear_gift_codes return="/store/cart" code="{segment_3}"}
 ```

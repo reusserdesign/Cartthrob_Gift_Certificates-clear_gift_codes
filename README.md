@@ -16,8 +16,8 @@ Well, Why not? We see there was a function to clear coupon codes, so why not add
 
 ### Example ExpressionEngine markup:
 
-1.	### Add the `redeem_gift_certificate_form`
-	Add this to a template_group and template of your choice _(we placed it in the store.group/cart.html)_.
+#### Add the `redeem_gift_certificate_form`
+Add this to a template_group and template of your choice _(we placed it in the store.group/cart.html)_.
 ```html
 {exp:cartthrob_gift_certificates:redeem_gift_certificate_form return="/store/cart" error_handling="inline"}
 	<input type="text" name="gift_certificate_code" >
@@ -42,8 +42,8 @@ Well, Why not? We see there was a function to clear coupon codes, so why not add
 {/exp:cartthrob_gift_certificates:redeem_gift_certificate_form}
 ```
 
-2.	### Add remove-gift-codes.html file
-	This can be in a template group of your choice _(we placed it in the store.group)_. When the user clicks on the link to remove the specific code, the segment_3 variable is passed as the parameter to the function and removes only that code if it is set. If there is no code parameter set, then all codes are removed.
+#### Add remove-gift-codes.html file
+This can be in a template group of your choice _(we placed it in the store.group)_. When the user clicks on the link to remove the specific code, the segment_3 variable is passed as the parameter to the function and removes only that code if it is set. If there is no code parameter set, then all codes are removed.
 ```html
 {exp:cartthrob_gift_certificates:clear_gift_codes return="/store/cart" code="{segment_3}"}
 ```
